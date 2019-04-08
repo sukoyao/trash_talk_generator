@@ -9,17 +9,17 @@ const phrase = ['很簡單吧!', '很容易吧!', '很快吧!', '很正常吧!']
 function generateTrashTalk(target) {
   const phraseBox = Math.floor(Math.random() * phrase.length)
   let trashTalk = ''
-  if (target.engineer === 'on') {
+  if (target.job === 'engineer') {
     const engineerBox = Math.floor(Math.random() * task.engineer.length)
     trashTalk = '身為一個工程師' + task.engineer[engineerBox]
   }
 
-  if (target.designer === 'on') {
+  if (target.job === 'designer') {
     const designerBox = Math.floor(Math.random() * task.designer.length)
     trashTalk = '身為一個設計師' + task.designer[designerBox]
   }
 
-  if (target.entrepreneur === 'on') {
+  if (target.job === 'entrepreneur') {
     const entrepreneurBox = Math.floor(Math.random() * task.entrepreneur.length)
     trashTalk = '身為一個創業家' + task.entrepreneur[entrepreneurBox]
   }
