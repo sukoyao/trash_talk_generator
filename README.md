@@ -6,7 +6,7 @@
 
 如何安裝並啟動專案
 
-1. 點選右上方Clone or Download 複製網址。
+1. 點選右上方`Clone or Download` 複製 `<URL>`。
 1. 打開終端機，輸入 `git clone <URL>`。
 1. 待終端機下載完成會顯示Done訊息。
 1. 輸入 `cd <資料夾名/>` 進入該資料夾。
