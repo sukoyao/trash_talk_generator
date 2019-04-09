@@ -9,7 +9,7 @@
 1. 點選右上方`Clone or Download` 複製 `<URL>`。
 1. 打開終端機，輸入 `git clone <URL>`。
 1. 待終端機下載完成會顯示Done訊息。
-1. 輸入 `cd <資料夾名/>` 進入該資料夾。
+1. 輸入 `cd trash_talk_generator/` 進入該資料夾。
 1. 安裝Express套件 `npm i express`。
 1. 安裝Handlebars套件 `npm i express-handlebars`。
 1. 安裝body-parser套件 `npm i body-parser`。
